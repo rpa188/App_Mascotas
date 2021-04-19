@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppMascotas</string>
+    <string name="todo">todo</string>
+    <string name="titulo">Find your dog a new home</string>
+    <string name="texto">It is a difficult decision to give away your dog.
+        <br> </br>We can help find it a new happy owner.</string>
+
 </resources>
