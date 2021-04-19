@@ -4,5 +4,10 @@
     <string name="titulo">Find your dog a new home</string>
     <string name="texto">It is a difficult decision to give away your dog.
         <br> </br>We can help find it a new happy owner.</string>
+    <string name="Title">Adopt a dog</string>
+    <string name="subtitle">"Lucky is an app designed create<br></br> connection between people and dogs<br></br> though a "personal profile".</string>
+    <string name="Lucky">Lucky</string>
+    <string name="Welcome">Welcome</string>
+    <string name="subtitle2">Find your new best friend!</string>
 
 </resources>
