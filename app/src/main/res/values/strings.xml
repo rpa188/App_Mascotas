@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">AppMascotas</string>
     <string name="todo">todo</string>
-    <string name="titulo">Find your dog a new home</string>
-    <string name="texto">It is a difficult decision to give away your dog.
-        <br> </br>We can help find it a new happy owner.</string>
+
+    <!-- String OnBoarding Uno-->
+    <string name="titulo">Adop a Dog</string>
+    <string name="texto">Lucky is an app designed to create
+        <br> </br>connections between people and dogs.
+        <br> </br>through a "personal prolife"</string>
+
+
+
+    <string name="circle_uno">Control uno</string>
+    <string name="circle_dos">Control dos</string>
 
 </resources>

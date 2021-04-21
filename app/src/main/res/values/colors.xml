@@ -7,4 +7,17 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores personalizados del App-->
+    <color name="background">#FFF2DC</color>
+    <color name="text_dark">#333F51</color>
+    <color name="orange">#FF7546</color>
+    <color name="gray">#9CB0C4</color>
+    <color name="secondary">#4D5D75</color>
+    <color name="secondaryDos">#81F0D5</color>
+    <color name="secondaryTres">#ED9E35</color>
+    <color name="secondaryCuatro">#C09D83</color>
+    <color name="secondaryCinco">#DFC19F</color>
+    <!-- Otros -->
+    <color name="gray_40">#f2f2f2</color>
 </resources>
