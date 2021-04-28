@@ -4,51 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".OnBoardingActivity">
+    tools:context=".OnBoardDosActivity"
+    android:background="@color/gray">
 
     <ImageView
-        android:id="@+id/perro_fondo_uno"
+        android:id="@+id/cerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_clear"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/perrofondodos"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/perrofondodos"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/imagendeperro"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.6"
         app:layout_constraintHorizontal_bias="0.0"
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline5"
-        app:srcCompat="@drawable/dog" />
-
+        app:srcCompat="@drawable/perrofondodos" />
     <TextView
-        android:id="@+id/txt1"
+        android:id="@+id/txt3"
         style="@style/title_app"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/titulo"
+        android:text="@string/titulo2"
         android:textColor="@color/text_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guideline" />
 
     <TextView
-        android:id="@+id/txt2"
+        android:id="@+id/txt4"
         style="@style/text_body"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/texto"
+        android:text="@string/texto2"
         android:textColor="@color/text_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+        app:layout_constraintTop_toBottomOf="@+id/txt3" />
+
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -81,17 +91,20 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <ImageView
+            android:id="@+id/optionUno"
             android:layout_width="16dp"
             android:layout_height="wrap_content"
             android:contentDescription="@string/circle_uno"
-            android:src="@drawable/ic_circle" />
+            android:src="@drawable/ic_circle"
+            android:tint="@color/gray_40" />
+
 
         <ImageView
             android:layout_width="16dp"
             android:layout_height="wrap_content"
             android:contentDescription="@string/circle_dos"
-            android:src="@drawable/ic_circle"
-            android:tint="@color/gray"/>
+            android:src="@drawable/ic_circle"/>
+
     </LinearLayout>
 
     <androidx.constraintlayout.widget.Guideline

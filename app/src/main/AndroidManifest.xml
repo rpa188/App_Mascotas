@@ -8,14 +8,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppMascotas.NoActionBar">
-        <activity android:name=".OnBoardingActivity">
+        android:theme="@style/Theme.AppMascotas">
+        <activity android:name=".HomeActivity"
+         >
+        </activity>
+        <activity
+            android:name=".OnBoardDosActivity"
+            android:theme="@style/Theme.AppMascotas.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppMascotas.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppMascotas.NoActionBar">
+        </activity>
+        <activity
+            android:name=".OnBoardingActivity"
+            android:theme="@style/Theme.AppMascotas.NoActionBar" />
     </application>
 
 </manifest>

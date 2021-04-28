@@ -3,14 +3,29 @@
     <string name="todo">todo</string>
 
     <!-- String OnBoarding Uno-->
-    <string name="titulo">Adop a Dog</string>
+    <string name="titulo">Adopt a Dog</string>
     <string name="texto">Lucky is an app designed to create
         <br> </br>connections between people and dogs.
         <br> </br>through a "personal prolife"</string>
-
-
-
     <string name="circle_uno">Control uno</string>
     <string name="circle_dos">Control dos</string>
+
+    <!-- String OnBoardingDos -->
+    <string name="titulo2">Find your dog a new home</string>
+    <string name="texto2">It is a dificult decision to give away your dog.<br></br> We can help find it a new happy owner.</string>
+    <string name="imagendeperro">Imagen de perro</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="sub_title">Busca tu nuevo gran amigo!</string>
+
+
+    <!-- Login Text -->
+    <string name="apple">Sign in with Apple</string>
+    <string name="facebook">Sign in with Facebook</string>
+    <string name="google">Sign in with Google</string>
+    <string name="instagram">Sign in with Instagram</string>
+    <string name="pruebaUno">Foto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
