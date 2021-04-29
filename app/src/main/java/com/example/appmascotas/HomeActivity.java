@@ -30,8 +30,10 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNav);
 
         //Personalizando el color del Menu, sobreescribiendo a Blanco
-        String primary = "#ffffff";
+        String primary = "#FFF2DC";
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor(primary)));
+        //Borrar la sombra del ActionBar
+        getSupportActionBar().setElevation(0);
 
         //getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
