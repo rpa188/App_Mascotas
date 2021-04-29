@@ -9,13 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppMascotas">
-        <activity android:name=".HomeActivity"
-         >
-        </activity>
+        <activity android:name=".ContactoActivity"></activity>
+        <activity android:name=".HomeActivity"></activity>
         <activity
             android:name=".OnBoardDosActivity"
-            android:theme="@style/Theme.AppMascotas.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AppMascotas.NoActionBar"></activity>
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppMascotas.NoActionBar">
@@ -27,8 +25,7 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.AppMascotas.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.AppMascotas.NoActionBar"></activity>
         <activity
             android:name=".OnBoardingActivity"
             android:theme="@style/Theme.AppMascotas.NoActionBar" />

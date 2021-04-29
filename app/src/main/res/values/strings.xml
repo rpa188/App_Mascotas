@@ -26,6 +26,15 @@
     <string name="instagram">Sign in with Instagram</string>
     <string name="pruebaUno">Foto</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment">Menu Gigante</string>
+    <string name="AreaFooter">Area footer</string>
+    <string name="home">Home</string>
+    <string name="config">Config</string>
+    <string name="favorito">Favorito</string>
+    <string name="notificacion">Notificación</string>
+    <string name="hello_Home">Hello Home Fragment</string>
+    <string name="hello_information">Fragment Information</string>
+    <string name="hello_favorites">Favorites Fragment</string>
+    <string name="hello_Notificaciones">Notificaciones Fragment</string>
 
 </resources>
