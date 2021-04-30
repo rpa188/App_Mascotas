@@ -1,41 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="4dp"
-    app:cardElevation="4dp"
-    app:cardUseCompatPadding="true">
+    app:cardCornerRadius="24dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true"
+    android:outlineSpotShadowColor="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/imagen"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+
+            app:layout_constraintEnd_toStartOf="@id/parte_de_derecha"
+            app:layout_constraintStart_toEndOf="@+id/parte_de_izquierda"
+            app:layout_constraintTop_toBottomOf="@id/parte_de_arriba"
+            app:layout_constraintBottom_toTopOf="@+id/parte_de_abajo"
             app:srcCompat="@drawable/perroimag" />
+
+        <Button
+            android:id="@+id/btn_love"
+            android:backgroundTint="@color/white"
+            style="@style/button_color"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:background="#03A9F4"
+            android:drawableTop="@drawable/favorite"
+
+            app:iconTint="#03A9F4"
+            app:layout_constraintEnd_toStartOf="@id/parte_de_derecha"
+            app:layout_constraintTop_toBottomOf="@id/parte_de_arriba">
+
+        </Button>
 
         <TextView
             android:id="@+id/nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
             android:text="TextView"
-
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imagen" />
+            app:layout_constraintTop_toBottomOf="@+id/imagen"
+            app:layout_constraintBottom_toTopOf="@+id/description"/>
 
         <TextView
             android:id="@+id/description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
             android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/nombre" />
+            app:layout_constraintTop_toBottomOf="@+id/nombre"
+            app:layout_constraintBottom_toTopOf="@+id/parte_de_abajo"/>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/parte_de_izquierda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.11764706" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/parte_de_arriba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.07633588" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/parte_de_derecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.89" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/parte_de_abajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="71dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

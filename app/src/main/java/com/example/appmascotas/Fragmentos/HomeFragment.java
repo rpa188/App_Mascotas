@@ -3,6 +3,7 @@ package com.example.appmascotas.Fragmentos;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -38,7 +39,9 @@ public class HomeFragment extends Fragment {
         items.add(new Mascota(R.drawable.dog,"PerroUno","Machito", "Perrito de 5 años"));
         items.add(new Mascota(R.drawable.dog,"PerroUno","Machito", "Perrito de 5 años"));
         items.add(new Mascota(R.drawable.dog,"PerroUno","Machito", "Perrito de 5 años"));
-
+        items.add(new Mascota(R.drawable.dog,"PerroUno","Machito", "Perrito de 5 años"));
+        items.add(new Mascota(R.drawable.dog,"PerroUno","Machito", "Perrito de 5 años"));
+        items.add(new Mascota(R.drawable.dog,"PerroUno","Machito", "Perrito de 5 años"));
 
     }
 
@@ -53,7 +56,8 @@ public class HomeFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         //Usar un administrador para Linear Layout
         lManager = new LinearLayoutManager(getContext());
-        recyclerView.setLayoutManager(lManager);
+        int numberOfColumns=2;
+        recyclerView.setLayoutManager(new GridLayoutManager(getContext(), numberOfColumns));
         //Crea un nuevo adaptador
         adapter = new MascotaAdapter(items);
         recyclerView.setAdapter(adapter);

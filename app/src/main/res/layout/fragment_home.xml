@@ -17,7 +17,7 @@
           android:layout_height="match_parent"
           android:fitsSystemWindows="true"
           app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
-          app:title="Lucky"
+          app:title="@string/titulo"
           android:id="@+id/collapsinToolbar">
           <ImageView
               android:layout_width="wrap_content"

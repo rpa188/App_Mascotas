@@ -12,4 +12,9 @@
         <item name="android:fontFamily">@font/rubik</item>
         <item name="android:padding">8dp</item>
     </style>
+    <style name="button_color" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">@color/white</item>
+
+    </style>
 </resources>
